@@ -1,0 +1,5 @@
+print("Olá")
+peso = float(input("Digite o seu peso (kg):"))
+altura = float(input("Digite a sua altura (m):"))
+imc = round(peso/(altura**2),2)
+print("Seu IMC é de", imc)
